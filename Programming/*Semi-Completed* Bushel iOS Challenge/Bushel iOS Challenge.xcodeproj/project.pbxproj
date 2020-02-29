@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9633F423F3BF780006CB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9633F323F3BF780006CB06 /* AppDelegate.swift */; };
+		0D9633F623F3BF780006CB06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9633F523F3BF780006CB06 /* SceneDelegate.swift */; };
+		0D9633F823F3BF780006CB06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9633F723F3BF780006CB06 /* LoginViewController.swift */; };
+		0D9633FB23F3BF780006CB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9633F923F3BF780006CB06 /* Main.storyboard */; };
+		0D9633FD23F3BF7D0006CB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9633FC23F3BF7D0006CB06 /* Assets.xcassets */; };
+		0D96340023F3BF7D0006CB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9633FE23F3BF7D0006CB06 /* LaunchScreen.storyboard */; };
+		0D96340B23FBBB160006CB06 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D96340A23FBBB160006CB06 /* EventCell.xib */; };
+		0D96340D23FBBBB10006CB06 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96340C23FBBBB10006CB06 /* EventCell.swift */; };
+		0D96340F23FDC5E80006CB06 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96340E23FDC5E80006CB06 /* EventsTableViewController.swift */; };
+		0D96341123FDC7050006CB06 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96341023FDC7050006CB06 /* EventInfoViewController.swift */; };
+		0D96341323FDCFA00006CB06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96341223FDCFA00006CB06 /* Constants.swift */; };
+		8CCCC3E5D1BD2DD8DA309BF8 /* Pods_Bushel_iOS_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2A22107949EE2E80C5DF2D /* Pods_Bushel_iOS_Challenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D9633F023F3BF780006CB06 /* Bushel iOS Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bushel iOS Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9633F323F3BF780006CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D9633F523F3BF780006CB06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D9633F723F3BF780006CB06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0D9633FA23F3BF780006CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D9633FC23F3BF7D0006CB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D9633FF23F3BF7D0006CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D96340123F3BF7D0006CB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D96340A23FBBB160006CB06 /* EventCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		0D96340C23FBBBB10006CB06 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		0D96340E23FDC5E80006CB06 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		0D96341023FDC7050006CB06 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInfoViewController.swift; sourceTree = "<group>"; };
+		0D96341223FDCFA00006CB06 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F2A22107949EE2E80C5DF2D /* Pods_Bushel_iOS_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bushel_iOS_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF090BEF2D6D1868DCEB5734 /* Pods-Bushel iOS Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bushel iOS Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Bushel iOS Challenge/Pods-Bushel iOS Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F2391B89EF976C24FE571895 /* Pods-Bushel iOS Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bushel iOS Challenge.release.xcconfig"; path = "Target Support Files/Pods-Bushel iOS Challenge/Pods-Bushel iOS Challenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9633ED23F3BF780006CB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCCC3E5D1BD2DD8DA309BF8 /* Pods_Bushel_iOS_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0685DFA76880F51518E2E805 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF090BEF2D6D1868DCEB5734 /* Pods-Bushel iOS Challenge.debug.xcconfig */,
+				F2391B89EF976C24FE571895 /* Pods-Bushel iOS Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0D9633E723F3BF780006CB06 = {
+			isa = PBXGroup;
+			children = (
+				0D9633F223F3BF780006CB06 /* Bushel iOS Challenge */,
+				0D9633F123F3BF780006CB06 /* Products */,
+				0685DFA76880F51518E2E805 /* Pods */,
+				412F7F32CD1B1D276FD3845F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9633F123F3BF780006CB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9633F023F3BF780006CB06 /* Bushel iOS Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9633F223F3BF780006CB06 /* Bushel iOS Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				0D9633F323F3BF780006CB06 /* AppDelegate.swift */,
+				0D9633F523F3BF780006CB06 /* SceneDelegate.swift */,
+				0D96340723F3BFE50006CB06 /* Models */,
+				0D96340823F3BFF10006CB06 /* Views */,
+				0D96340923F3BFFF0006CB06 /* Controllers */,
+				0D9633FC23F3BF7D0006CB06 /* Assets.xcassets */,
+				0D9633FE23F3BF7D0006CB06 /* LaunchScreen.storyboard */,
+				0D96340123F3BF7D0006CB06 /* Info.plist */,
+				0D96341223FDCFA00006CB06 /* Constants.swift */,
+			);
+			path = "Bushel iOS Challenge";
+			sourceTree = "<group>";
+		};
+		0D96340723F3BFE50006CB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D96340823F3BFF10006CB06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D9633F923F3BF780006CB06 /* Main.storyboard */,
+				0D96340A23FBBB160006CB06 /* EventCell.xib */,
+				0D96340C23FBBBB10006CB06 /* EventCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D96340923F3BFFF0006CB06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D9633F723F3BF780006CB06 /* LoginViewController.swift */,
+				0D96340E23FDC5E80006CB06 /* EventsTableViewController.swift */,
+				0D96341023FDC7050006CB06 /* EventInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		412F7F32CD1B1D276FD3845F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A22107949EE2E80C5DF2D /* Pods_Bushel_iOS_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D9633EF23F3BF780006CB06 /* Bushel iOS Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D96340423F3BF7D0006CB06 /* Build configuration list for PBXNativeTarget "Bushel iOS Challenge" */;
+			buildPhases = (
+				08BC4CEC4953D326A0F1D3CD /* [CP] Check Pods Manifest.lock */,
+				0D9633EC23F3BF780006CB06 /* Sources */,
+				0D9633ED23F3BF780006CB06 /* Frameworks */,
+				0D9633EE23F3BF780006CB06 /* Resources */,
+				03A423EA3756572728A3CC49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bushel iOS Challenge";
+			productName = "Bushel iOS Challenge";
+			productReference = 0D9633F023F3BF780006CB06 /* Bushel iOS Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9633E823F3BF780006CB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jack Maring";
+				TargetAttributes = {
+					0D9633EF23F3BF780006CB06 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D9633EB23F3BF780006CB06 /* Build configuration list for PBXProject "Bushel iOS Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D9633E723F3BF780006CB06;
+			productRefGroup = 0D9633F123F3BF780006CB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9633EF23F3BF780006CB06 /* Bushel iOS Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9633EE23F3BF780006CB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D96340B23FBBB160006CB06 /* EventCell.xib in Resources */,
+				0D96340023F3BF7D0006CB06 /* LaunchScreen.storyboard in Resources */,
+				0D9633FD23F3BF7D0006CB06 /* Assets.xcassets in Resources */,
+				0D9633FB23F3BF780006CB06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A423EA3756572728A3CC49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bushel iOS Challenge/Pods-Bushel iOS Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bushel iOS Challenge/Pods-Bushel iOS Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bushel iOS Challenge/Pods-Bushel iOS Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08BC4CEC4953D326A0F1D3CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bushel iOS Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9633EC23F3BF780006CB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D96340D23FBBBB10006CB06 /* EventCell.swift in Sources */,
+				0D9633F823F3BF780006CB06 /* LoginViewController.swift in Sources */,
+				0D9633F423F3BF780006CB06 /* AppDelegate.swift in Sources */,
+				0D96341123FDC7050006CB06 /* EventInfoViewController.swift in Sources */,
+				0D96341323FDCFA00006CB06 /* Constants.swift in Sources */,
+				0D96340F23FDC5E80006CB06 /* EventsTableViewController.swift in Sources */,
+				0D9633F623F3BF780006CB06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D9633F923F3BF780006CB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9633FA23F3BF780006CB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D9633FE23F3BF7D0006CB06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9633FF23F3BF7D0006CB06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D96340223F3BF7D0006CB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D96340323F3BF7D0006CB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D96340523F3BF7D0006CB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF090BEF2D6D1868DCEB5734 /* Pods-Bushel iOS Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MFNJL822Q2;
+				INFOPLIST_FILE = "Bushel iOS Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackmaring.Bushel-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D96340623F3BF7D0006CB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2391B89EF976C24FE571895 /* Pods-Bushel iOS Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MFNJL822Q2;
+				INFOPLIST_FILE = "Bushel iOS Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackmaring.Bushel-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9633EB23F3BF780006CB06 /* Build configuration list for PBXProject "Bushel iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D96340223F3BF7D0006CB06 /* Debug */,
+				0D96340323F3BF7D0006CB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D96340423F3BF7D0006CB06 /* Build configuration list for PBXNativeTarget "Bushel iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D96340523F3BF7D0006CB06 /* Debug */,
+				0D96340623F3BF7D0006CB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9633E823F3BF780006CB06 /* Project object */;
+}
