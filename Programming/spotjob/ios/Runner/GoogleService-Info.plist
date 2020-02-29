@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>585369216683-e3r5e6v13l72n38tkelm5ki95g1icefp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.585369216683-e3r5e6v13l72n38tkelm5ki95g1icefp</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>585369216683-agg8omv2pcduggc6pssfmtgr5il7hgbe.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDvX4S91wDdIWrTUXfCM0xZ6oy8QfhILPk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>585369216683</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.spotjob.spotjob</string>
+	<key>PROJECT_ID</key>
+	<string>spotjob-5c67d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotjob-5c67d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:585369216683:ios:81cbeaac65fe00ad</string>
+	<key>DATABASE_URL</key>
+	<string>https://spotjob-5c67d.firebaseio.com</string>
+</dict>
+</plist>
