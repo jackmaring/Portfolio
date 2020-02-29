@@ -1,0 +1,422 @@
+/* max-width and min-width is the size of the screen not the device----------- */
+
+
+/* max-device-width and min-device-width is the size of the device not the screen----------- */
+
+
+/* Desktop and Laptop, min-width equals the container size----------- */
+
+
+/* min-width, the minimum and up----------- */
+
+@media all and (min-width: 900px) {
+    body {
+        font-family: Helvetica;
+        /*sets a font face to the whole site*/
+        font-size: 50em;
+        /*sets a font size to the whole site*/
+        line-height: 1em;
+        /*sets a font height or leading to the whole site*/
+        color: red;
+        /*sets a font color to the whole site*/
+    }
+    .redBorder {
+        border-width: 2px;
+        border-color: red;
+        border-style: solid;
+    }
+    #container {
+        width: 100%;
+        /*sets the width of your site*/
+        margin: 0 auto;
+        /*gets rid of any default browser margins and centers the container*/
+    }
+    #mobilePeriodicBlock {
+        display: none;
+    }
+    #periodicBlock {
+        width: 400px;
+        height: 400px;
+        background-color: #E85E4F;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    #periodicNumber {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 29px;
+        color: white;
+        top: 20px;
+        left: 20px;
+        position: relative;
+    }
+    #periodicSymbol {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 137px;
+        color: white;
+        text-align: center;
+        top: 45px;
+        position: relative;
+    }
+    #periodicTextWrapper {
+        top: 55px;
+        position: relative;
+    }
+    .periodicText {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 29px;
+        color: white;
+        text-align: center;
+    }
+    .mobileNavbarContainer {
+        display: none;
+    }
+    #navbarBlock {
+        width: 400px;
+        height: 210px;
+        background-color: white;
+        top: 400px;
+        left: 0;
+        position: absolute;
+    }
+    .navbarElement1 {
+        width: 100%;
+        height: calc(100% / 3);
+        line-height: 100%;
+        text-align: center;
+        top: 0px;
+        position: absolute;
+    }
+    .navbarElement2 {
+        width: 100%;
+        height: calc(100% / 3);
+        line-height: 100%;
+        text-align: center;
+        top: calc(100% / 3);
+        position: absolute;
+    }
+    .navbarElement3 {
+        width: 100%;
+        height: calc(100% / 3);
+        line-height: 100%;
+        text-align: center;
+        top: calc(100% * (2/3));
+        position: absolute;
+    }
+    .navbarElement1:hover {
+        background-color: #E85E4F;
+    }
+    .navbarElement1:hover h6 {
+        color: white;
+    }
+    .navbarElement2:hover {
+        background-color: #E85E4F;
+    }
+    .navbarElement2:hover h6 {
+        color: white;
+    }
+    .navbarElement3:hover {
+        background-color: #E85E4F;
+    }
+    .navbarElement3:hover h6 {
+        color: white;
+    }
+    .navbarText {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 18px;
+        color: black;
+    }
+    #homepageBlockContainer {
+        left: 400px;
+        width: 100%;
+        height: 610px;
+    }
+    #homepageBlock {
+        width: 100%;
+        height: 610px;
+        background-color: #A07855;
+        opacity: .85;
+    }
+    #headingTextWrapper {
+        top: 110px;
+        left: 500px;
+        position: absolute;
+    }
+    .headingText {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 70px;
+        color: white;
+        line-height: .65em;
+        letter-spacing: 0.05em;
+    }
+    #homepageImageContainer {
+        width: 100%;
+        height: 300px;
+    }
+    #homepageImage1 {
+        width: 50%;
+        height: 300px;
+        left: 0;
+        position: absolute;
+    }
+    #homepageImage2 {
+        width: 50%;
+        height: 300px;
+        right: 0;
+        position: absolute;
+    }
+    #homepageImage3 {
+        height: 400px;
+        width: 400px;
+    }
+    #homepageImage4 {
+        height: 610px;
+        width: 100%;
+        position: absolute;
+    }
+    #infoBlock {
+        width: 100%;
+        height: 400px;
+        background-color: #D4B996;
+    }
+    #infoBlockWrapper {
+        top: 940px;
+        left: 500px;
+        position: absolute;
+    }
+    #needBeans {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 40px;
+        color: #A07855;
+        margin-bottom: 30px;
+    }
+    .infoBlockTextWrapper {
+        margin-top: 30px;
+    }
+    .infoBlockText {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 22px;
+        color: white;
+    }
+    #mobileHomePageImage3 {
+        display: none;
+    }
+    .footer {
+        width: 100%;
+        height: 130px;
+        background-color: #A07855;
+    }
+}
+
+
+/* Smartphones (portrait and landscape), max-width equals the min-width of the ipad version, 1 column----------- */
+
+
+/* max-width, the maximum and less----------- */
+
+@media all and (max-width: 715px) {
+    body {
+        font-family: Helvetica;
+        /*sets a font face to the whole site*/
+        font-size: 3em;
+        /*sets a font size to the whole site*/
+        line-height: 1em;
+        /*sets a font height or leading to the whole site*/
+        color: red;
+        /*sets a font color to the whole site*/
+    }
+    #container {
+        width: 100%;
+        /*sets the width of your site*/
+        margin: 0 auto;
+        /*gets rid of any default browser margins and centers the container*/
+    }
+    img {
+        max-width: 100%;
+    }
+    #periodicBlock {
+        display: none;
+    }
+    #navbarBlock {
+        display: none;
+    }
+    .mobileHeader {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+    }
+    #mobilePeriodicBlock {
+        width: 70px;
+        height: 70px;
+        background-color: #E85E4F;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    #mobilePeriodicNumber {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 12px;
+        color: white;
+        left: 5px;
+        position: relative;
+    }
+    #mobilePeriodicSymbolWrapper {
+        top: 10px;
+        left: 13px;
+        position: absolute;
+    }
+    #mobilePeriodicSymbol {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 28px;
+        color: white;
+        text-align: center;
+    }
+    .mobileNavbarContainer {
+        height: 70px;
+        left: 70px;
+        width: calc(100% - 70px);
+        top: 0;
+        position: absolute;
+    }
+    .mobileNavbarElement {
+        width: calc(100% / 3);
+        height: 100%;
+        line-height: 100%;
+        text-align: center;
+        float: left;
+    }
+    .mobileNavbarElement:hover {
+        background-color: #D4B996;
+    }
+    .mobileNavbarElement:hover .mobileNavbarText {
+        color: white;
+    }
+    .mobileNavbarText {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 12px;
+        color: black;
+    }
+    #mobileActivePage {
+        background-color: #E85E4F;
+        color: white;
+        width: calc(100% / 3);
+        height: 100%;
+        line-height: 100%;
+        text-align: center;
+        float: left;
+    }
+    #mobileActivePageText {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 12px;
+        color: white;
+    }
+    #homepageImage4 {
+        height: 270px;
+        width: 100%;
+        position: absolute;
+    }
+    #homepageBlockContainer {
+        top: 70px;
+        height: 270px;
+        width: 100%;
+        position: absolute;
+    }
+    #homepageBlock {
+        top: 70px;
+        height: 270px;
+        width: 100%;
+        background-color: #A07855;
+        opacity: .85;
+    }
+    #headingTextWrapper {
+        top: 100px;
+        left: 30px;
+        position: absolute;
+    }
+    .headingText {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 28px;
+        color: white;
+        line-height: .65em;
+        letter-spacing: 0.05em;
+    }
+    #homepageImage1 {
+        top: 340px;
+        width: 100%;
+        height: 130px;
+        position: absolute;
+    }
+    #homepageImage2 {
+        display: none;
+    }
+    #infoBlock {
+        top: 470px;
+        width: 100%;
+        height: 255px;
+        background-color: #D4B996;
+        position: absolute;
+    }
+    #infoBlockWrapper {
+        left: 30px;
+        position: absolute;
+    }
+    #needBeans {
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 24px;
+        color: #A07855;
+        margin-bottom: 20px;
+    }
+    .infoBlockTextWrapper {
+        margin-top: 20px;
+    }
+    .infoBlockText {
+        font-family: 'Helvetica';
+        font-weight: lighter;
+        font-size: 16px;
+        color: white;
+    }
+    #homepageImage3 {
+        display: none;
+    }
+    #mobileHomePageImage3 {
+        top: 725px;
+        width: 100%;
+        height: 320px;
+        position: absolute;
+    }
+    .footer {
+        top: 1045px;
+        width: 100%;
+        height: 50px;
+        background-color: #A07855;
+        position: absolute;
+    }
+}
+
+
+/* Sizes of different screens */
+
+
+/* Smartphones (portrait and landscape) ----------- max-width: 500px and less */
+
+
+/* iPads (portrait and landscape) ----------- 500px–900px */
+
+
+/* Desktops and laptops ----------- min-width: 900-980px */
+
+
+/* Large screens ----------- min-width: 980px and up */
