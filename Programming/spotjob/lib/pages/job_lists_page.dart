@@ -18,9 +18,9 @@ class JobListsPage extends StatelessWidget {
           children: <Widget>[
             DisplayListTile('Jobs Saved', 9),
             CollapseListTile('Jobs Applied', 4),
-            DisplayedList(4),
+            // DisplayedList(4),
             CollapseListTile('Jobs In Progress', 2),
-            DisplayedList(2),
+            // DisplayedList(2),
             DisplayListTile('Jobs Completed', 13),
             DisplayListTile('Jobs Posted', 5),
           ],

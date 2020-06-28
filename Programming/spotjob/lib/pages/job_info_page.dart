@@ -1,27 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:gradient_app_bar/gradient_app_bar.dart';
+import 'package:spotjob/widgets/homepage_widgets/scrollable_job_list.dart';
 
 import '../widgets/profile_page_widgets/skills_grid.dart';
 
 class JobInfoPage extends StatelessWidget {
   static const routeName = '/job-info';
 
-  final skills = [
-    'Communication',
-    'Coding',
-    'Flutter',
-    'People',
-    'Focused',
-    'I go hard',
-    'Yo yo enthusiast',
-    'Communication',
-    'Coding',
-    'Flutter',
-    'People',
-    'Focused',
-    'I go hard',
-    'Yo yo enthusiast',
-  ];
+  final String username;
+  final String jobTitle;
+  final String description;
+  final String price;
+  final String name;
+  // final List<String> requirements;
+  // final List<String> tags;
+
+  JobInfoPage(
+    this.username,
+    this.jobTitle,
+    this.description,
+    this.price,
+    this.name,
+    // this.requirements,
+    // this.tags,
+  );
 
   final TextStyle listHeader = TextStyle(
     fontFamily: 'Helvetica',
@@ -36,7 +38,7 @@ class JobInfoPage extends StatelessWidget {
         backgroundColorStart: Theme.of(context).accentColor,
         backgroundColorEnd: Theme.of(context).primaryColor,
         title: Text(
-          'Mukai\'s Spotjob',
+          '$username\'s Spotjob',
           style: Theme.of(context).textTheme.title.merge(
                 TextStyle(
                   color: Colors.white,
@@ -93,26 +95,26 @@ class JobInfoPage extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: <Widget>[
-                              Padding(
-                                padding: const EdgeInsets.only(top: 8.0),
-                                child: Text(
-                                  'Posted: Jan 1 2019',
-                                  style: Theme.of(context).textTheme.body1,
-                                ),
-                              ),
+                              // Padding(
+                              //   padding: const EdgeInsets.only(top: 8.0),
+                              //   child: Text(
+                              //     'Posted: Jan 1 2019',
+                              //     style: Theme.of(context).textTheme.body1,
+                              //   ),
+                              // ),
                             ],
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 32.0),
                             child: Text(
-                              'Web Design Job',
+                              '$jobTitle',
                               style: Theme.of(context).textTheme.display1,
                             ),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(top: 8.0),
                             child: Text(
-                              '\$250',
+                              '\$$price',
                               style: Theme.of(context).textTheme.title,
                             ),
                           ),
@@ -127,7 +129,7 @@ class JobInfoPage extends StatelessWidget {
                           Padding(
                             padding: const EdgeInsets.only(top: 8.0),
                             child: Text(
-                              'Mukai Selekwa',
+                              '$name',
                               style: Theme.of(context).textTheme.title,
                             ),
                           ),
@@ -138,7 +140,7 @@ class JobInfoPage extends StatelessWidget {
                               right: 8,
                             ),
                             child: Text(
-                              'I need someone to build a website for my app called Webblen. You will be paid, but it won\'t be well. The conditions will be hard and the work will be thankless. But sometimes it be like that.',
+                              '$description',
                               style: Theme.of(context).textTheme.body1.merge(
                                     TextStyle(
                                       height: 1.15,
@@ -272,20 +274,26 @@ class JobInfoPage extends StatelessWidget {
                           right: 16,
                           left: 16,
                         ),
-                        child: Card(
-                          elevation: 3,
-                          child: Padding(
-                            padding: const EdgeInsets.all(16.0),
-                            child: Text(
-                              'You need to have general knowledge in designing and building webistes. Also DM me for instructions on how to get into my building.',
-                              style: Theme.of(context).textTheme.body1.merge(
-                                    TextStyle(
-                                      height: 1.15,
-                                    ),
-                                  ),
-                            ),
-                          ),
-                        ),
+                        // child: ListView.builder(
+                        //   itemCount: requirements.length,
+                        //   itemBuilder: (context, index) {
+                        //     return Card(
+                        //       elevation: 3,
+                        //       child: Padding(
+                        //         padding: const EdgeInsets.all(16.0),
+                        //         child: Text(
+                        //           '${requirements[index]}',
+                        //           style:
+                        //               Theme.of(context).textTheme.body1.merge(
+                        //                     TextStyle(
+                        //                       height: 1.15,
+                        //                     ),
+                        //                   ),
+                        //         ),
+                        //       ),
+                        //     );
+                        //   },
+                        // ),
                       ),
                       Padding(
                         padding: const EdgeInsets.only(
@@ -302,7 +310,7 @@ class JobInfoPage extends StatelessWidget {
                           right: 16,
                           top: 24,
                         ),
-                        child: SkillsGrid(skills),
+                        // child: SkillsGrid(tags),
                       ),
                     ],
                   ),

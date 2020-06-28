@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>585369216683-e3r5e6v13l72n38tkelm5ki95g1icefp.apps.googleusercontent.com</string>
+	<string>321395076173-s120944hqkum7bnl0ffgj1i702q6kfvi.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.585369216683-e3r5e6v13l72n38tkelm5ki95g1icefp</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>585369216683-agg8omv2pcduggc6pssfmtgr5il7hgbe.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.321395076173-s120944hqkum7bnl0ffgj1i702q6kfvi</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDvX4S91wDdIWrTUXfCM0xZ6oy8QfhILPk</string>
+	<string>AIzaSyDUCwHH1zrsaaHVYB2aiQdhUtLjFkwFb-c</string>
 	<key>GCM_SENDER_ID</key>
-	<string>585369216683</string>
+	<string>321395076173</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>io.spotjob.spotjob</string>
+	<string>com.spotjob.spotjob</string>
 	<key>PROJECT_ID</key>
-	<string>spotjob-5c67d</string>
+	<string>spotjob-5923f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>spotjob-5c67d.appspot.com</string>
+	<string>spotjob-5923f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:585369216683:ios:81cbeaac65fe00ad</string>
+	<string>1:321395076173:ios:031237606469dec278c004</string>
 	<key>DATABASE_URL</key>
-	<string>https://spotjob-5c67d.firebaseio.com</string>
+	<string>https://spotjob-5923f.firebaseio.com</string>
 </dict>
 </plist>

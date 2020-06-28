@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'package:spotjob/pages/sign_up_page.dart';
 import '../widgets/welcome_widgets/welcome_button.dart';
 import 'login_page.dart';
-import 'signin_page.dart';
 
-class WelcomePage extends StatelessWidget {
+class SplashPage extends StatelessWidget {
+  static const routeName = '/splash';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,7 +53,7 @@ class WelcomePage extends StatelessWidget {
                       ),
                       ' SIGN UP',
                       () {
-                        Navigator.of(context).pushNamed(SignInPage.routeName);
+                        Navigator.of(context).pushNamed(SignUpPage.routeName);
                       },
                     ),
                     WelcomeButton(

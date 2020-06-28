@@ -14,6 +14,7 @@ class BottombarAppbar extends StatelessWidget with PreferredSizeWidget {
       backgroundColorStart: Theme.of(context).accentColor,
       backgroundColorEnd: Theme.of(context).primaryColor,
       title: Text(title),
+      leading: Container(),
       actions: <Widget>[
         IconButton(
           icon: Icon(Icons.mail),
