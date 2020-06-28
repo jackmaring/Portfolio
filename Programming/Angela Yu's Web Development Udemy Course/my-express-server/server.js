@@ -10,7 +10,7 @@ app.get("/contact", function(req, res) {
 });
 
 app.get("/about", function(req, res) {
-  res.send("I am a badass bitch");
+  res.send("ayyyyyyy");
 });
 
 app.get("/hobbies", function(req, res) {
