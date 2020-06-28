@@ -81,17 +81,17 @@ function HomePage(props) {
                 )}
                 {!isAuthenticated ? (
                   <IsNotVoiderIcon
-                    className="fas fa-fire"
+                    className="fas fa-fire-alt"
                     onClick={() => loginWithRedirect({})}
                   />
                 ) : props.isUserVoider(result) ? (
                   <IsVoiderIcon
-                    className="fas fa-fire"
+                    className="fas fa-fire-alt"
                     onClick={() => props.toggleVoider(result, user)}
                   />
                 ) : (
                   <IsNotVoiderIcon
-                    className="fas fa-fire"
+                    className="fas fa-fire-alt"
                     onClick={() => props.toggleVoider(result, user)}
                   />
                 )}

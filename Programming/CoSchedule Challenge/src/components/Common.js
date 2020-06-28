@@ -64,8 +64,8 @@ export const IsNotFavoriteIcon = styled.i`
 
 export const IsVoiderIcon = styled.i`
   position: absolute;
-  top: 50px;
-  right: 13px;
+  top: 10px;
+  left: 10px;
   margin: 0;
   font-size: 24px;
   color: #ff2400;
@@ -73,10 +73,11 @@ export const IsVoiderIcon = styled.i`
 
 export const IsNotVoiderIcon = styled.i`
   position: absolute;
-  top: 50px;
-  right: 13px;
+  top: 10px;
+  left: 10px;
   margin: 0;
   font-size: 24px;
+  color: white;
 `;
 
 export const VoiderIcon = styled.i`

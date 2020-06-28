@@ -11,7 +11,7 @@ import {
   ImageUsername,
   ImageWrapper,
   ResultImage,
-  VoiderIcon,
+  IsVoiderIcon,
 } from "../components/Common";
 
 const KEEPEROFTHEVOID = styled.img`
@@ -42,8 +42,8 @@ function VoidCore(props) {
                 return (
                   <ResultItem key={result.id}>
                     {/* the items in the favorites page will always be favorited */}
-                    <VoiderIcon
-                      className="fas fa-fire"
+                    <IsVoiderIcon
+                      className="fas fa-fire-alt"
                       onClick={() => props.toggleVoider(result)}
                     />
                     <ImageUsername>{result.user}</ImageUsername>

@@ -45,8 +45,6 @@ function App() {
     return Math.floor(total / denominator) + valueToBeAdded;
   }
 
-  console.log('test ' + process.env.NODE_ENV);
-
   // fetches search results from api and updates a couple of variables
   const fetchSearchResults = async (updatedPageNo = "", query) => {
     // if this wasn't just a challenge I would find a way to hide the api key
