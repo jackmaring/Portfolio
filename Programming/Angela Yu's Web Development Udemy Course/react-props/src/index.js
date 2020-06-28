@@ -1,0 +1,32 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+function Card(props) {
+  return (
+    <div className="my-style">
+      <h2>{props.name}</h2>
+      <img src={props.img} alt="avatar_img" />
+      <p>{props.tel}</p>
+      <p>{props.email}</p>
+    </div>
+  );
+}
+
+ReactDOM.render(
+  <div>
+    <h1>My Contacts</h1>
+    <Card
+      name="Beyonce"
+      img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+      tel="+123 456 789"
+      email="b@beyonce.com"
+    />
+    <Card
+      name="Derek Malloy"
+      img="https://img.favpng.com/15/25/3/finn-the-human-jake-the-dog-adventure-time-drawing-image-png-favpng-XuGU7h0msEeeRrhSVx2nqEKzg.jpg"
+      tel="+123 456 789"
+      email="f@finn.com"
+    />
+  </div>,
+  document.getElementById("root")
+);
